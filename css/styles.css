@@ -1,0 +1,51 @@
+body {
+  background-color: rgb(212, 165, 233);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+#countdown {
+  font-family: "Arial", sans-serif;
+  font-size: 24px;
+  text-align: center;
+}
+
+h1 {
+  color: rgb(211, 184, 230);
+  background-color: rgb(145, 81, 205);
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  border-radius: 6px;
+  padding: 10px 0;
+}
+
+h1:hover{
+    background-color: rgb(92, 35, 145);
+    cursor: pointer;
+}
+
+h2 {
+  color: rgb(164, 88, 218);
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+
+#countdown {
+  background: rgba(193, 70, 161, 1);
+  background: -moz-linear-gradient(
+    left,
+    rgba(193, 70, 161, 1) 10%,
+    rgba(193, 70, 161, 1) 30%,
+    rgba(168, 0, 119, 1) 100%
+  );
+  color: rgb(219, 202, 232);
+  border-radius: 6px;
+  padding: 10px 0;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+#countdown:hover {
+  background-color: rgb(144, 33, 114);
+  cursor: pointer;
+}
